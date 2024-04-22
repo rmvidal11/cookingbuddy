@@ -1,0 +1,115 @@
+body {
+    background-image: url("../WEBSITE/BG/bg.png");
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    height: 70px;
+    width: auto;
+    padding: 0px 20px;       
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    display: flex;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.navlink {
+    margin: 0px 20px;
+    padding: 9px 30px;
+    font-size: 20px;
+    font-family: 'Calibre', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    margin: 0px 20px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+}
+
+.home{
+    color: black;
+    background-color:  white;
+    border-radius: 10px;
+}
+
+.home:hover {
+    border-radius: 10px;
+    color: rgb(130, 150, 154);
+    background-color: white;
+}
+
+.logo {
+    margin: 10px;
+    margin-bottom: -30px;
+    width: 100px;
+    height: 90px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 5px solid rgb(215, 189, 177);
+}
+
+.logo-text {
+    margin: auto;
+    padding-left: 30%;
+    font-size: 27px;
+    font-family: fantasy;
+    font-weight: 200px;
+}
+
+.midtext-container{
+    padding-top: 30px;
+    font-family: Poppins, sans-serif;
+    flex-direction: column;
+    text-align: center;
+    height: 210px;
+}
+
+.greeting{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: clamp(3vw,9vw,10vw);
+}
+
+.slogan{
+    padding-top: 3px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 2.3vw;
+}
+
+.button-container{
+    padding-top: 5px;
+    text-align: center;
+}
+
+button{
+    font-size: 30px;
+    height: 60px;
+    width: 280px;
+    border-radius: 36px;
+    color: #D7BDB1;
+    background-color: black;
+    font-weight: bold;
+    align-items: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: black;
+    background-color: white; 
+}
